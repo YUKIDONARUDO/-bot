@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send("pong!")
 
 # Renderなどの環境変数からトークンを読み込む
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("8ecb5e374a77501152362403df9766c4c162908d0a458b72b7784076614d0515")
 
 if TOKEN:
     bot.run(TOKEN)
